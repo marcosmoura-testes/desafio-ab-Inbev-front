@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/employee-management/.vs
+/employee-management/.idea
+/employee-management/node_modules
