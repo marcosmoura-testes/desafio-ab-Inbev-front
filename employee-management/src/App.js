@@ -43,6 +43,14 @@ function App() {
                        )}
                 />
 
+                <Route
+                    path="/employeeRegister/:id?"
+                    element={isLoggedIn ? (
+                        <Layout><EmployeeRegister /></Layout>
+                    ) : (
+                        <Navigate to="/login" />
+                    )}
+                />
                 {/* Redireciona para /login se a URL não corresponder a nenhuma rota existente */}
                 <Route path="*" element={<Navigate to="/login" />} />
             </Routes>
