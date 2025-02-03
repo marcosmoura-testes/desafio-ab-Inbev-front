@@ -45,26 +45,3 @@ Follow these steps to install and run the project on your local machine:
 
    The application will be available at `http://localhost:3000` in your browser.
 
-## Project Structure
-
-- **src/**: Contains all the source code for the React application.
-- **public/**: Contains static files like `index.html` and images.
-- **components/**: Contains reusable UI components.
-- **services/**: Contains code to interact with the backend API.
-
-## Running Tests
-
-To run tests for the project, use the following command:
-
-```bash
-npm test
-```
-
-## Notes
-
-- The backend API (Employee Management API) must be running separately. You can find the instructions for that [here](link-to-employee-management-api-readme).
-- The React project uses Axios to make HTTP requests to the backend.
-
----
-
-By following these steps, you'll have the Employee Management System up and running on your local machine.
